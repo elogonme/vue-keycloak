@@ -16,6 +16,13 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 npm install
 ```
 
+### Run local keycloak server
+
+```sh
+cd keycloak
+docker compose up -d
+```
+
 ### Compile and Hot-Reload for Development
 
 ```sh
