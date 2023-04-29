@@ -16,4 +16,5 @@ const renderApp = () => {
   app.mount('#app')
 }
 
+//KeyCloakService.Init(renderApp)
 KeyCloakService.CallLogin(renderApp)
